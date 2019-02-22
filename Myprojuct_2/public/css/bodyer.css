@@ -1,0 +1,332 @@
+/* 全局样式 */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* 轮播图 */
+/* 轮播图框架大小 */
+#bodyer .swiper-container{
+    width:100%;
+    height:21.6em;
+    position: relative;
+}
+/* 图片大小 */
+.swiper-container .swiper_img_background{
+    width:103%;
+    height:100%;
+    transition:5s;
+}
+/* 图片动态缩小 */
+.swiper-slide-active img.swiper_img_background{
+    width:100%;
+}
+
+
+.swiper-slide-active .swiper_div{
+    margin-left:-22em;
+}
+
+/* 分页器样式 */
+#bodyer .swiper-pagination-bullet{
+    width:6em;
+    height:0.35em;
+    border-radius:10px;
+}
+/* 翻页按钮样式 */
+.swiper-button-prev,.swiper-button-next{
+    display:none;
+}
+/* 轮播图定位div */
+.swiper_div{
+    width:25em;
+    position: absolute;
+    top:1em;
+    left:30em;
+    transition:1s;
+    text-align: center;
+}
+/* 文字样式 */
+.swiper_div p{
+    margin-top:1em;
+    font:600 20px "黑体";
+    color:rgb(182, 179, 179);
+}
+/* logo */
+.swiper_img_logo{
+    width:25em;
+}
+.swiper_div1{
+    top:5em;
+}
+/* 购买按钮样式 */
+.swiper_div a{
+    display:block;
+    text-align: center;
+    width:15em;
+    height:1.8em;
+    background:#0e86ca;
+    font:18px "黑体";
+    color:rgb(255, 255, 255);
+    border-color:rgba(255,255,255,.08);
+    padding-top:0.7em; 
+    margin:1em auto;
+}
+.swiper_div a:hover{
+    background:#00AEFF;
+    color:rgb(255, 255, 255) !important;
+}
+
+
+/* 1f导航栏 */
+#div_1f{
+    width:100%;
+    height:4em;
+    background: #002044;
+    background-image:url(../img/header/WeChat7f825b3aa70ba2e8f1330b6ab2de3480.png);
+    background-size:100% 4em;
+    background-repeat:no-repeat;
+    color:rgb(228, 227, 227);
+    border-top:1px solid #305179;
+    border-bottom:1px solid #305179;
+}
+
+/* ul样式属性 */
+#ul_1f{
+    list-style:none;
+    margin-left:35%;
+}
+
+/* li样式属性 */
+#ul_1f li{
+    width:4em;
+    text-align: center;
+    margin-top:0.65em;
+    float: left;
+}
+
+/* 文字样式 */
+#ul_1f #ul_font{
+    margin-top:1.2em;
+    margin-right:1.5em;
+}
+
+/* 图片样式属性 */
+#ul_1f img{
+    width:2.5em;
+    transition:0.3s;
+}
+#ul_1f img:hover{
+    margin-top:-0.33em;
+    width:3em;
+}
+
+/* bodyer内容大div */
+#bodyer_div{
+    width:100%;
+    height:1150px;
+    background:#002650;
+    background-image:url(../img/bg_top.c571367918d76a3afec3.png);
+    background-repeat:no-repeat;
+    padding-top:4em;
+}
+
+/* 1f楼层div */
+#bodyer_1f{
+    width:83%;
+    position: relative;
+    margin:auto;
+    color:rgb(255, 255, 255);
+}
+/* 推荐 */
+#bodyer_1f .body_1f_font{
+    font:30px "黑体";
+}
+
+/* a标签图块1 */
+.bodyer_1f_a{
+    width:18em;
+    height:26.5em;
+    position: absolute;
+    top:4em;
+    transition:.3s;
+    background:#271d36;
+}
+/* 鼠标移入样式 */
+.bodyer_1f_a:hover{
+    width:19em;
+    height:27.9em;
+    margin-left:-.5em;
+    margin-top:-.5em;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.568);
+}
+/* 背景图 */
+.bodyer_bg_img{
+    width:100%;
+}
+/* 定位div */
+.bodyer_1f_div{
+    position: absolute;
+    left:1.5em;
+    top:12.5em;
+}
+/* logo */
+.img_1f_logo{
+    width:2.5em;
+    transition:0.3s;
+}
+.img_1f_logo:hover{
+    width:3em;
+}
+/* 文本 */
+.body_1f_font1{
+    color:beige;
+    font-size:18px;
+    margin:0.3em 0 0 0;
+}
+.body_1f_font2{
+    color:rgb(202, 202, 201);
+    font:600 15px "黑体";
+    margin-top:1em;
+}
+.body_1f_font3{
+    color:rgb(255, 255, 255);
+    font:18px "黑体";
+    margin-top:4em;
+}
+.body_1f_font4{
+    color:rgb(228, 156, 0);
+    font:13px "黑体";
+    margin-top:1em;
+}
+.body_1f_font5{
+    margin-top:2.6em;
+}
+.body_1f_font6{
+    color:rgb(255, 255, 255);
+    font:18px "黑体";
+    margin-top:2.7em;
+}
+/* 背景色 距离 */
+.bodyer_1f_2{
+    left:20%;
+    background:#202125;
+}
+.bodyer_1f_3{
+    left:40%;
+    background:#747b97;
+}
+.bodyer_1f_4{
+    left:60%;
+    background:#20272d;
+}
+.bodyer_1f_5{
+    left:80%;
+    background:#1c0d36;
+}
+.bodyer_1f_6{
+    background:#202125;
+}
+.bodyer_1f_7{
+    left:20%;
+    background:#0f232c;
+}
+.bodyer_1f_8{
+    left:40%;
+    background:#211926;
+}
+.bodyer_1f_9{
+    left:60%;
+    background:#121212;
+}
+.bodyer_1f_10{
+    left:80%;
+    background:#0f283e;
+}
+
+/* 2f楼层div */
+#bodyer_2f{
+    width:83%;
+    position: relative;
+    margin:auto;
+    color:rgb(255, 255, 255);
+    margin-top:26em;
+}
+
+/* 中层插图 */
+#bodyer_div1{
+    width:100%;
+    height:350px;
+    background-image:url(../img/background-desktop.jpg);
+    position: relative;
+}
+/* logo */
+#center_logo{
+    position: absolute;
+    width:30%;
+    left:-30%;
+    top:10%;
+    transition: 2s;
+}
+/* 大机器人 */
+#center_img{
+    position: absolute;
+    left:100%;
+    top:-51%;
+    transition: 2s;
+}
+
+/* bodyer内容大div下半部分 */
+#bodyer_div2{
+    width:100%;
+    height:1100px;
+    background:#002650;
+    background-image:url(../img/bg_top.c571367918d76a3afec3.png);
+    background-repeat:no-repeat;
+    padding-top:4em;
+}
+/* 2f背景色 距离 */
+#bodyer_div2 .bodyer_2f_1{
+    background:#888c8f;
+}
+#bodyer_div2 .bodyer_2f_2{
+    left:20%;
+    background:#121212;
+}
+#bodyer_div2 .bodyer_2f_3{
+    left:40%;
+    background:#2a3950;
+}
+#bodyer_div2 .bodyer_2f_4{
+    left:60%;
+    background:#737a96;
+}
+#bodyer_div2 .bodyer_2f_5{
+    left:80%;
+    background:#202125;
+}
+#bodyer_div2 .bodyer_2f_6{
+    background:#152c4c;
+}
+#bodyer_div2 .bodyer_2f_7{
+    left:20%;
+    background:#211926;
+}
+#bodyer_div2 .bodyer_2f_8{
+    left:40%;
+    background:#111119;
+}
+#bodyer_div2 .bodyer_2f_9{
+    left:60%;
+    background:#071633;
+}
+#bodyer_div2 .bodyer_2f_10{
+    left:80%;
+    background:#1f2024;
+}
+
+.a_up{
+    background: #000;
+    width:2em;
+    height:2em;
+}

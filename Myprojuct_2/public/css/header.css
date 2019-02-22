@@ -1,0 +1,325 @@
+/* 全局样式 */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    position:relative;
+}
+
+/* 全部a标签样式 */
+a{
+    text-decoration:none;
+}
+a:hover{
+    color:rgba(224, 224, 224, 0.877) !important;
+}
+
+/* 头顶一行div，a标签样式 */
+#header_1 a{
+    font:600 15px "微软雅黑";
+    color:rgba(194, 189, 189, 0.829);
+}
+
+/* 第一行div样式 */
+#header_1{
+    display:block;
+	position: relative;
+    width:100%;
+    height:3em;
+    border-bottom:1px solid rgba(255,255,255,.15);
+    background:
+    url(../img/bg_bottom_mobile.c2cc1fa8b7f35f5e7058.png) no-repeat;
+}
+
+/* logo */
+#logo{
+    width:5em;
+    height:2.6em;
+    margin:0.2em 0 0 6em;
+}
+#bg_1{
+    float: left;
+    width:60%;
+    height:3em;
+    margin-left:3em;
+}
+.a_head{
+    float: left;
+}
+#sopp{
+    margin:0.8em 0 0 2em;
+}
+
+/* 右侧两个a标签 */
+#header_1 .a_right{
+    position: absolute;
+	left:91%;
+    margin:0.8em 0 0 0;
+}
+#header_1 #help{
+    margin-right:2em; 
+	left:85%;
+}
+
+/* 第二行div */
+#header_2{
+    display:block;
+    width:100%;
+    height:3.3em;
+    border-bottom:1px solid rgba(255,255,255,.15);
+    background:#032041;
+    position: relative;
+    /* top:-22px; */
+}
+
+/* 第二行div里a标签 */
+#header_2 a{
+    font:600 15px "微软雅黑";
+    color:rgba(231, 229, 229, 0.753);
+}
+#header_2 div{
+    display: inline-block;
+}
+#header_2 .div_2a{
+    margin:0 0 0 1.5em;
+}
+
+/* 小房子图 */
+#header_2>div>a>img{
+    width:1.5em;
+    margin:0.8em 0 0 6em;
+    vertical-align:bottom;
+}
+
+/* 搜索框 */
+.ipt_div{
+    width:25%;
+    position: absolute;
+    left:55%;
+    top:.6em;
+}
+.ipt{
+    width:88%;
+    height:1.7em;
+    padding: .375rem 1.8rem;
+    border:1px solid rgba(255,255,255,.15);
+    background:#001732;
+    color:rgb(255, 255, 255);
+    transition:0.3s;
+}
+
+/* input里的放大镜图 */
+.ipt_img{
+    width:1.5em;
+    position: absolute;
+    left:1px;
+    margin-top:5.5px;
+}
+
+/* 获取焦点事件 */
+.ipt:focus{
+    padding:1em 1.8rem;
+    margin-top:-8px;
+}
+
+/* 右边两个a标签 */
+.d_rmb1{
+    width:6%;
+    height:2.8em;
+    border-left:1px solid rgba(255,255,255,.15);
+    border-right:1px solid rgba(255,255,255,.15);
+    position: absolute;
+    left:83%;
+    padding-top:7px;
+    text-align: center;
+    line-height: 2.4em;
+}
+.d_rmb2{
+    width:8em;
+    height:2.8em;
+    position: absolute;
+    left:89.7%;
+    padding-top:7px;
+    text-align: center;
+    line-height: 2.4em;
+}
+
+/* 下拉菜单 */
+#header_3{
+    width:21em;
+    background:#151922;
+    border:1px solid #2d333f;
+    position: absolute;
+    top:3em;
+    left:77%;
+    display:none;
+    z-index: 2;
+}
+
+/* 登录按钮 */
+.login{
+    width:100%;
+    border-bottom:1px solid #2d333f;
+}
+.btn{
+    display:block;
+    text-align: center;
+    width:280px;
+    height:30px;
+    background:#0e86ca;
+    font:18px "黑体";
+    color:rgb(255, 255, 255);
+    border-color:rgba(255,255,255,.08);
+    padding-top:10px;
+    margin:20px auto;
+    transition:0.3s;
+}
+.btn:hover{
+    background:#00AEFF;
+    color:rgb(255, 255, 255) !important;
+}
+
+/* 下边两个按钮 */
+.btn1{
+    background:none;
+    color:rgba(173, 173, 173, 0.877);
+    text-align:left;
+    margin:10px auto;
+    font:16px "黑体";
+}
+.btn1:hover{
+    background:none;
+}
+
+/* 下边两个按钮图 */
+#header_3 img{
+    width:1.5em;
+    vertical-align:middle;
+}
+
+/* 游戏按钮下拉菜单 */
+#header #header_4{
+    width:10.8em;
+    text-align:left;
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+    background: #151922;
+    border:1px solid #2d333f;
+    position: absolute;
+    left:8.7%;
+    top:3.89em;
+    font:600 14px "黑体";
+    color:#91abe5;
+    display:none;
+    z-index: 2;
+}
+
+/* ul样式 */
+#header_4 ul{
+    list-style: none;
+}
+#header_4>ul>div{
+    margin-bottom:0.8em;
+    margin-left:0.4em;
+}
+
+/* li样式 */
+#header_4 .btn_play{
+    padding:0.5em 1em;
+    transition: 0.5s;
+}
+#header_4 .btn_play:hover{
+    background: rgb(2, 95, 138);
+}
+
+/* 游戏下拉菜单a标签样式 */
+#header_4 .btn_play_1{
+    font:400 15px "黑体";
+    color:rgba(231, 229, 229, 0.753);
+}
+
+/* logo图片样式 */
+#header_4 .img_play{
+    width:1.4em;
+    height:1.4em;
+    vertical-align:middle;
+    margin-right:0.3em;
+}
+
+/* 服务按钮下拉菜单 */
+#header #header_5{
+    width:13.5em;
+    text-align:left;
+    background: #181F2C;
+    border:1px solid #2d333f;
+    position: absolute;
+    left:12.8%;
+    top:3.4em;
+    padding:0.8em 0;
+    display:none;
+    z-index: 2;
+}
+
+/* 游戏下拉菜单a标签样式 */
+#header_5 .btn_help_1{
+    font:500 15px "黑体";
+    color:rgba(231, 229, 229, 0.877);
+}
+
+/* logo图片样式 */
+#header_5 .img_help{
+    width:2em;
+    height:2em;
+    vertical-align:middle;
+    margin-right:0.3em;
+}
+
+/* div样式 */
+#header_5 .btn_help{
+    width:85%;
+    padding:0.2em 1em;
+    transition: 0.5s;
+}
+#header_5 .btn_help:hover{
+    background: rgb(13, 16, 24);
+}
+
+/* 游戏点数按钮下拉菜单 */
+#header #header_6{
+    width:14em;
+    text-align:left;
+    background: #171D29;
+    border:1px solid #2d333f;
+    position: absolute;
+    left:-84%;
+    top:3.4em;
+    padding:0.8em 0;
+    display:none;
+    z-index: 2;
+}
+
+/* 游戏下拉菜单a标签样式 */
+#header_6 .btn_play_money_1{
+    font:500 15px "黑体";
+    color:rgba(231, 229, 229, 0.877);
+}
+
+/* logo图片样式 */
+#header_6 .img_play_money{
+    width:1.5em;
+    height:1.5em;
+    vertical-align:middle;
+    margin-right:0.3em;
+}
+
+/* div样式 */
+#header_6 .btn_play_money{
+    width:85%;
+    padding:0.2em 1em;
+    transition: 0.5s;
+}
+#header_6 .btn_play_money:hover{
+    background: rgb(13, 16, 24);
+}
